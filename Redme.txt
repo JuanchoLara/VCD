@@ -1,0 +1,9 @@
+1. in the file. "htaccess" - line "RewriteBase" assign the app folder on the server PHP
+2. in MySQL create DB "fileupload" and assign User and Password
+3. run script "fileupload.sql" in DB fileupload
+4. in file "appication\config\database.php" assing value for "hostname", "username" and "password" for DB acces
+5. in file "appication\config\config.php" assing value for "base_url" corresponding to the web application path (Complete)
+6. in file "appication\config \routes.php" assing value for "default_controller" corresponding to the web application path (only folder)
+7. assign write privileges to the folder "archivos"
+
+Good Luck
